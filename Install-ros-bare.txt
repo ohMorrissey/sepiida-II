@@ -1,6 +1,11 @@
 echo "############################################"
-echo "       Install: Ubuntu Desktop              "
+echo "       Install the Following:               "
+echo "       Ubuntu Desktop 18.04 LTS             "
+echo "       ROS Melodic             "
+echo "       Ubuntu Desktop 18.04 LTS             "
 echo "############################################"
+echo "                    "
+echo "                    "
 
 
 
@@ -11,7 +16,7 @@ sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get install -y ubuntu-desktop
 
-
+echo "                    "
 echo "############################################"
 echo "       Install: ROS Melodic                 "
 echo "############################################"
@@ -20,6 +25,7 @@ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31
 sudo apt update
 sudo apt install -y ros-melodic-desktop-full
 
+echo "                    "
 echo "############################################"
 echo "       Setup ROS Environment                "
 echo "############################################"
@@ -30,3 +36,5 @@ source ~/.bashrc
 sudo apt install -y python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
 sudo rosdep init
 rosdep update
+tail -n 1 ~/.bashrc
+echo "This ^^^ should print: source /opt/ros/melodic/setup.bash"
