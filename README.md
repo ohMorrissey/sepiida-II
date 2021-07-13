@@ -17,7 +17,7 @@ Unzip and etch the image file onto a 32gb or larger USB.
 
 Plug the SD card into the Pi and power on. 
 
-Once the Pi has loaded, enter the username and password, both are ubuntu
+Once the Pi has loaded, enter the username and password, both are ubuntu.
 ```
 user: ubuntu
 password:ubuntu
@@ -30,7 +30,8 @@ cd sepiida-ii
 bash $(installfile).txt
 ```
 
-for example, to install ubuntu-desktop and ros melodic only
+for example, to install ubuntu-desktop and ros melodic only.
 ```
 bash Install-ros-bare.txt
 ```
+This took around 45 minutes to complete.
