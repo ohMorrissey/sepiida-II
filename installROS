@@ -1,0 +1,3 @@
+cd installROS-master
+./installROS.sh -p ros-melodic-desktop-full
+cd ~/sepiida-ii
