@@ -1,0 +1,7 @@
+cd ~/sepiida-ii/installRealsenseSDK-master
+./buildLibrealsense.sh
+
+cd ~
+mkdir rs_ws && cd rs_ws
+cd ~/sepiida-ii/installRealSenseROS-master
+./installRealSenseROS.sh ~/rs_ws
