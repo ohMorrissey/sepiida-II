@@ -1,0 +1,5 @@
+sudo fallocate /var/swapfile -l 4G
+sudo chmod 600 /var/swapfile
+sudo mkswap /var/swapfile
+sudo swapon /var/swapfile
+free -m
