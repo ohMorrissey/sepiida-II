@@ -1,3 +1,5 @@
 cd installROS-master
 ./installROS.sh -p ros-melodic-desktop-full
 cd ~/sepiida-ii
+source ~/.bashrc
+sudo apt-get install python-catkin-tools python-catkin-pkg
